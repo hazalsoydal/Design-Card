@@ -1,0 +1,110 @@
+.photo{
+    width:249px;
+    height: 223px;
+    display: block;
+
+}
+
+.free-shipping{
+    background-color: #1e1a45; 
+    width: 96px;
+    height: 21px;
+    color: white;
+    font-size: 9%; 
+    border-radius:20px ;
+    border: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.heading{
+    color:#191847;
+    text-size-adjust: 24px;
+
+
+
+}
+
+.konteynir{
+    display:flex;
+}
+
+.price-info{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-info span:first-child{
+    color: #191847;
+    font-size: 14px;
+    text-decoration: line-through;
+    
+    
+}
+
+.price-info span:last-child{
+    color:#191847;
+    font-size: 14px;
+}
+
+
+.price-info span:nth-child(2){
+    color: #191847;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.cartbutton{
+
+    width: 442px;
+    height: 59px;
+    background-color: #4788E9;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px darkblue;
+    transition: opacity 1s;
+    border: none;
+    margin-top: 40px;
+}
+
+.cartbutton:active{
+    box-shadow: 0px 2px 0px #2E69E4; 
+}
+
+.stock{
+    font-size: 14px;
+}
+
+.bottom-button1{
+    width: 213px;
+    height: 54px;
+    border-radius: 8px;
+    margin-right: 17px;
+    border-color: #C9C9DA;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.bottom-button2{
+    width: 213px;
+    height: 54px;
+    border-radius: 8px;
+    border-color: #C9C9DA;
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+
+.emoji{
+    width: 50px;
+    height: 50px;
+}
+
